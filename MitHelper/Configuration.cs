@@ -10,12 +10,6 @@ public enum AbilityDisplayMode
     Nickname
 }
 
-public enum ShowTankMits
-{
-    Yes,
-    No
-}
-
 public class Configuration : IPluginConfiguration
 {
     public int Version { get; set; } = 1;
@@ -25,6 +19,12 @@ public class Configuration : IPluginConfiguration
 
     /// Show tank busters?
     public bool ShowTankMits { get; set; } = true;
+
+    /// Show tank mits in a separate window (synced phase)
+    public bool TankMitSeparateWindow { get; set; } = false;
+
+    /// Compact mode: hide Time column, tank window shows only player's mits
+    public bool CompactMode { get; set; } = false;
 
     /// Swap default to OT
     public bool TankDefaultSwap { get; set; } = false;

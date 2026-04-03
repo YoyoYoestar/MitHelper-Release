@@ -48,7 +48,30 @@ public static class JobRoleMapper
         "Astro", "Melee 1", "Melee 2", "Phys Range", "Caster"
     };
 
-
+    public static Dictionary<uint, uint> PartyMitsTanks = new() //Job ID,Mit ID
+    {
+        { 21, Abilities.ShakeItOff },
+        { 19,Abilities.DivineVeil },
+        { 32, Abilities.DarkMissionary },
+        { 37, Abilities.HeartOfLight}
+    };
+    public static Dictionary<uint, uint> PartyMitsPhysicalRanged = new() //Job ID,Mit ID
+    {
+        { 23, Abilities.Troubadour },
+        { 31, Abilities.Tactician },
+        { 38, Abilities.ShieldSamba }
+    };
+    public static Dictionary<uint, uint> ExtrasMap = new() //Job ID, Extras ID
+    {
+        {19, Abilities.PassageOfArms},
+        {23, Abilities.NaturesMinne},
+        {31, Abilities.Dismantle},
+        {38, Abilities.Improvisation},
+        {35, Abilities.MagickBarrier},
+        {42, Abilities.TemperaGrassa},
+        {20, Abilities.Mantra},
+    };
+    
     public static (string Column, string JobName) GetColumn(
         uint classJobId,
         bool tankDefault,

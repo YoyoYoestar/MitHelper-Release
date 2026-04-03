@@ -2,11 +2,15 @@
 
 public static class Abilities
 {
-        
+    //Misc
+    public const uint PartyMit = 0;
+    public const uint None = unchecked((uint)-1);
+    public const uint Everything = unchecked((uint)-99);
+    
     // Tank 
     public const uint Reprisal = 7535;
-    public const uint PartyMit = 0;
     public const uint TankLb = unchecked((uint)-2);
+    public const uint KitchenSink = unchecked((uint)-3);
 
     public const uint ShakeItOff = 7388;        // WAR
     public const uint DivineVeil = 3540;        // PLD
@@ -99,7 +103,7 @@ public static class Abilities
     // GNB
     public const uint Superbolide = 16152;
     public const uint Aurora = 16151;
-    public const uint GreatNebula = 16148;
+    public const uint GreatNebula = 36935;
     public const uint Camouflage = 16140;
     public const uint HeartOfCorundum = 25758;
     public const uint Nebula = 16148;

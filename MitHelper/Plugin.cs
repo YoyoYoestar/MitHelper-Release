@@ -15,6 +15,8 @@ public sealed class Plugin : IDalamudPlugin
     [PluginService] internal static ICommandManager CommandManager { get; private set; } = null!;
     [PluginService] internal static IClientState ClientState { get; private set; } = null!;
     [PluginService] internal static IPlayerState PlayerState { get; private set; } = null!;
+    [PluginService] internal static IObjectTable ObjectTable { get; private set; } = null!;
+    [PluginService] internal static IPartyList PartyList { get; private set; } = null!;
     [PluginService] internal static IDataManager DataManager { get; private set; } = null!;
     [PluginService] internal static IPluginLog Log { get; private set; } = null!;
 
@@ -23,64 +25,108 @@ public sealed class Plugin : IDalamudPlugin
     internal static Configuration Configuration { get; private set; } = null!;
 
     public readonly WindowSystem WindowSystem = new("MitHelper");
-    private ConfigWindow ConfigWindow { get; init; }
-    private MainWindow MainWindow { get; init; }
+    private ConfigWindow   ConfigWindow   { get; init; }
+    private MainWindow     MainWindow     { get; init; }
+    private TankMitWindow  TankMitWindow  { get; init; }
+    private EditorWindow   EditorWindow   { get; init; }
 
-    public Plugin()
+    public Plugin(IDataManager dataManager)
     {
         Configuration = PluginInterface.GetPluginConfig() as Configuration ?? new Configuration();
 
-        // You might normally want to embed resources and load them from the manifest stream
-        var goatImagePath = Path.Combine(PluginInterface.AssemblyLocation.Directory?.FullName!, "goat.png");
+        Data.AbilityExtraInfoData.Initialize(dataManager);
 
-        ConfigWindow = new ConfigWindow();
-        MainWindow = new MainWindow(this, goatImagePath);
+        var sheetLoader = new Data.MitSheetLoader(PluginInterface, Log);
+
+        ConfigWindow  = new ConfigWindow();
+        MainWindow    = new MainWindow(this, sheetLoader, Log);
+        TankMitWindow = new TankMitWindow(MainWindow);
+        EditorWindow  = new EditorWindow(PluginInterface, sheetLoader, Log, TextureProvider);
 
         WindowSystem.AddWindow(ConfigWindow);
         WindowSystem.AddWindow(MainWindow);
+        WindowSystem.AddWindow(TankMitWindow);
+        WindowSystem.AddWindow(EditorWindow);
 
         CommandManager.AddHandler(CommandName, new CommandInfo(OnCommand)
         {
-            HelpMessage = "A useful message to display in /xlhelp"
+            HelpMessage =
+                "/mithelper          – Toggle the main window\n" +
+                "/mithelper next     – Advance to the next phase\n" +
+                "/mithelper prev     – Go back to the previous phase\n" +
+                "/mithelper settings – Open the settings window\n" +
+                "/mithelper tanks    – Toggle the separate tank mit window\n" +
+                "/mithelper edit     – Toggle the sheet editor"
         });
 
-        // Tell the UI system that we want our windows to be drawn through the window system
-        PluginInterface.UiBuilder.Draw += WindowSystem.Draw;
-
-        // This adds a button to the plugin installer entry of this plugin which allows
-        // toggling the display status of the configuration ui
+        PluginInterface.UiBuilder.Draw += Draw;
         PluginInterface.UiBuilder.OpenConfigUi += ToggleConfigUi;
-
-        // Adds another button doing the same but for the main ui of the plugin
         PluginInterface.UiBuilder.OpenMainUi += ToggleMainUi;
 
-        // Add a simple message to the log with level set to information
-        // Use /xllog to open the log window in-game
-        // Example Output: 00:57:54.959 | INF | [SamplePlugin] ===A cool log message from Sample Plugin===
-        Log.Information($"===A cool log message from {PluginInterface.Manifest.Name}===");
+        Log.Information("===MitHelper loaded===");
+    }
+
+    private void Draw()
+    {
+        // Set tank window open state before drawing so it takes effect this frame
+        if (Configuration.TankMitSeparateWindow && Configuration.ShowTankMits && MainWindow.IsOpen)
+            TankMitWindow.IsOpen = true;
+        else if (!Configuration.TankMitSeparateWindow || !Configuration.ShowTankMits)
+            TankMitWindow.IsOpen = false;
+
+        WindowSystem.Draw();
     }
 
     public void Dispose()
     {
-        // Unregister all actions to not leak anything during disposal of plugin
-        PluginInterface.UiBuilder.Draw -= WindowSystem.Draw;
+        PluginInterface.UiBuilder.Draw -= Draw;
         PluginInterface.UiBuilder.OpenConfigUi -= ToggleConfigUi;
         PluginInterface.UiBuilder.OpenMainUi -= ToggleMainUi;
-        
-        WindowSystem.RemoveAllWindows();
 
+        WindowSystem.RemoveAllWindows();
         ConfigWindow.Dispose();
         MainWindow.Dispose();
+        TankMitWindow.Dispose();
+        EditorWindow.Dispose();
 
         CommandManager.RemoveHandler(CommandName);
     }
 
     private void OnCommand(string command, string args)
     {
-        // In response to the slash command, toggle the display status of our main ui
-        MainWindow.Toggle();
+        var arg = args.Trim().ToLowerInvariant();
+        switch (arg)
+        {
+            case "next":
+                MainWindow.IsOpen = true;
+                MainWindow.NextPhase();
+                break;
+
+            case "prev":
+            case "previous":
+                MainWindow.IsOpen = true;
+                MainWindow.PrevPhase();
+                break;
+
+            case "settings":
+            case "config":
+                ToggleConfigUi();
+                break;
+
+            case "tanks":
+                TankMitWindow.Toggle();
+                break;
+
+            case "edit":
+                EditorWindow.Toggle();
+                break;
+
+            default:
+                ToggleMainUi();
+                break;
+        }
     }
-    
+
     public void ToggleConfigUi() => ConfigWindow.Toggle();
-    public void ToggleMainUi() => MainWindow.Toggle();
+    public void ToggleMainUi()   => MainWindow.Toggle();
 }

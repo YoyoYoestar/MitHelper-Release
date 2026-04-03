@@ -30,13 +30,10 @@ public static class AbilityExtraInfoData
 
     private static AbilityExtraInfo Build(uint id, string name, string nickname)
     {
-        var row = _dataManager!.GetExcelSheet<Action>()?.GetRow(id);
-        return new AbilityExtraInfo(
-            id,
-            row?.Icon ?? 0,
-            row?.Name.ToString() ?? "N/A",
-            nickname
-        );
+        Lumina.Excel.Sheets.Action? row = null;
+        try { row = _dataManager!.GetExcelSheet<Lumina.Excel.Sheets.Action>()?.GetRow(id); }
+        catch { /* sentinel or unknown ID — icon will be 0 */ }
+        return new AbilityExtraInfo(id, row?.Icon ?? 0, row?.Name.ToString() ?? name, nickname);
     }
     
     private static AbilityExtraInfo BuildManual(uint id, uint iconId, string name, string nickname)
@@ -75,7 +72,7 @@ public static class AbilityExtraInfoData
         { Abilities.Panhaima, Build(Abilities.Panhaima, "Panhaima", "Panhaima") },
         { Abilities.Philosophia, Build(Abilities.Philosophia, "Philosophia", "Party-ia") },
         { Abilities.EukrasianPrognosis2, Build(Abilities.EukrasianPrognosis2, "Eukrasian Prognosis", "EukProg2") },
-        { Abilities.EukrasianPrognosis1, Build(Abilities.EukrasianPrognosis1, "Eukrasian Prognosis", "EukProg1") },
+        { Abilities.EukrasianPrognosis1, Build(Abilities.EukrasianPrognosis1, "Eukrasian Prognosis", "EukProg") },
         
         // White Mage
         { Abilities.PlenaryIndulgence, Build(Abilities.PlenaryIndulgence, "Plenary Indulgence", "Plenary") },
@@ -110,6 +107,8 @@ public static class AbilityExtraInfoData
         
         // Tank Specific
         { Abilities.Rampart, Build(Abilities.Rampart, "Rampart", "Ramp") },
+        { Abilities.KitchenSink, BuildManual(Abilities.KitchenSink, 0, "Kitchen Sink", "Sink") },
+        { Abilities.Everything,  BuildManual(Abilities.Everything,  0, "Everything",   "Everything") },
 
         // WAR
         { Abilities.Holmgang, Build(Abilities.Holmgang, "Holmgang", "Holmg") },
@@ -140,11 +139,11 @@ public static class AbilityExtraInfoData
         // GNB
         { Abilities.Superbolide, Build(Abilities.Superbolide, "Superbolide","Bolide") },
         { Abilities.Aurora, Build(Abilities.Aurora, "Aurora", "Aurora") },
-        { Abilities.GreatNebula, Build(Abilities.GreatNebula, "Nebula", "Nebula") },
+        { Abilities.GreatNebula, Build(Abilities.GreatNebula, "Great Nebula", "Nebula") },
+        { Abilities.Nebula, Build(Abilities.Nebula, "Nebula", "Nebula") },
         { Abilities.Camouflage, Build(Abilities.Camouflage, "Camouflage", "Camo") },
         { Abilities.HeartOfCorundum, Build(Abilities.HeartOfCorundum, "Heart Of Corundum", "HoC") },
         { Abilities.HeartOfStone, Build(Abilities.HeartOfStone, "Heart Of Stone", "HoS") }
     };
     
 }
-

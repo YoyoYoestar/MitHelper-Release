@@ -23,6 +23,7 @@ public record Phase(
 public record Mechanic(
     [property: JsonPropertyName("id")]        string Id,
     [property: JsonPropertyName("name")]      string Name,
+    [property: JsonPropertyName("nickname")]  string? Nickname,
     [property: JsonPropertyName("timestamp")] string Timestamp,
     [property: JsonPropertyName("mits")]      Dictionary<string, List<MitEntry>> Mits
 );
