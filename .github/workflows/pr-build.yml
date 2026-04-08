@@ -9,7 +9,7 @@ env:
   PUBLIC_NAME: MitHelper
   SOLUTION_NAME: MitHelper
   INTERNAL_NAME: MitHelper
-  RELEASE_DIR: MitHelper\bin\Release\net10.0-windows
+  RELEASE_DIR: MitHelper\bin\x64\Release\net10.0-windows
   PERSONAL_PLUGIN_REPO: YoyoYoestar/YoyoDalamudPlugins
   DOTNET_CLI_TELEMETRY_OPTOUT: true
 
