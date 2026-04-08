@@ -1,0 +1,7868 @@
+{
+  "duty": 1238,
+  "name": "FRU Mit but Good",
+  "description": "Fae Mit But Good",
+  "phases": [
+    {
+      "id": "FRU-P1",
+      "name": "Fatebreaker",
+      "mechanics": [
+        {
+          "id": "FRU-P1-M01",
+          "name": "Cyclonic Break 1",
+          "nickname":  "CB 1",
+          "timestamp": "0:14",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  7535,
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "Shake/Veil can be used prepull to cover break 1"
+              }
+            ],
+            "Tank 2": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "Shake/Veil can be used prepull to cover break 1"
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  3585
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [],
+            "Astro": [
+              {
+                "actionId": [
+                  3613
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 2": [],
+            "Phys Range": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Caster": [],
+            "Extras": [
+              {
+                "actionId": [
+                  65
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "(Prepull)",
+                  "aID": 65
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "FRU-P1-M02",
+          "name": "Utopian Sky",
+          "nickname": "US",
+          "timestamp": "0:35",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  7433
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P1-M03",
+          "name": "Cyclonic Break 2",
+          "nickname": "CB 2",
+          "timestamp": "0:50",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  188,
+                  25868
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  24300,
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [],
+            "Astro": [],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P1-M04",
+          "name": "Burnished Glory 1",
+          "nickname": "BG 1",
+          "timestamp": "1:26",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Tank 2": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  188,
+                  3585
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "(Early)",
+                  "aID": 188
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  24298,
+                  24310
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "(Early)",
+                  "aID": 24298
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  25862
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  25874,
+                  3613
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [],
+            "Melee 2": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Phys Range": [],
+            "Caster": [
+              {
+                "actionId": [
+                  7560
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Extras": [
+              {
+                "actionId": [
+                  2887,
+                  25857,
+                  7385,
+                  7408
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "FRU-P1-M05",
+          "name": "Fall of Faith (1/2)",
+          "nickname": "FoF 1/2",
+          "timestamp": "1:42",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  16538,
+                  29237,
+                  37014
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  24311,
+                  37035
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  16536
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  16559
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": [
+              {
+                "actionId": [
+                  65
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "FRU-P1-M06",
+          "name": "Fall of Faith (3/4)",
+          "nickname": "FoF 3/4",
+          "timestamp": "1:50",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  16538,
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  16536
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  16559,
+                  37031
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Caster": [],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P1-M07",
+          "name": "Burnished Glory 2",
+          "nickname": "BG 2",
+          "timestamp": "2:01",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Tank 2": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "(Late)",
+                  "aID": 7535
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  16538,
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  16536,
+                  7433,
+                  37011
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  37031
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "(Late)",
+                  "aID": 7549
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 2": [],
+            "Phys Range": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Caster": [],
+            "Extras": []
+          }
+        }
+      ],
+      "tank_combos": [
+        {
+          "id": "FRU-P1-WARGNB",
+          "tank_mits": [
+            {
+              "id": "FRU-P1-WG01",
+              "name": "Powder Mark Trail 1",
+              "nickname": "PMT 1",
+              "timestamp": "0:24",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      43
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Gunbreaker": []
+              }
+            },
+            {
+              "id": "FRU-P1-WG02",
+              "name": "Burn Mark 1",
+              "nickname": "BM 1",
+              "timestamp": "0:41",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      7531,
+                      40,
+                      25751
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      7531,
+                      16140,
+                      25758
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P1-WG03",
+              "name": "Powder Mark Trail 2",
+              "nickname": "PMT 2",
+              "timestamp": "2:10",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      36923,
+                      7531,
+                      40,
+                      25751
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(Late)",
+                      "aID": 7531
+                    }
+                  },
+                  {
+                    "note": "Late 40% should cover burnished glory 2 (shake first)"
+                  }
+                ],
+                "Gunbreaker": []
+              }
+            },
+            {
+              "id": "FRU-P1-WG04",
+              "name": "Burn Mark 2",
+              "nickname": "BM 2",
+              "timestamp": "2:26",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      7531
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      36935,
+                      7531,
+                      16140,
+                      -25758
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P1-WARPLD",
+          "tank_mits": [
+            {
+              "id": "FRU-P1-WP01",
+              "name": "Powder Mark Trail 1",
+              "nickname": "PMT 1",
+              "timestamp": "0:24",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      43
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": []
+              }
+            },
+            {
+              "id": "FRU-P1-WP02",
+              "name": "Burn Mark 1",
+              "nickname": "BM 1",
+              "timestamp": "0:41",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      7531,
+                      40,
+                      25751
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      7531,
+                      22,
+                      25746
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P1-WP03",
+              "name": "Powder Mark Trail 2",
+              "nickname": "PMT 2",
+              "timestamp": "2:10",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      36923,
+                      7531,
+                      40,
+                      25751
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(Late)",
+                      "aID": 7531
+                    }
+                  },
+                  {
+                    "note": "Late 40% should cover burnished glory 2 (shake first)"
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      7382
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P1-WP04",
+              "name": "Burn Mark 2",
+              "nickname": "BM 2",
+              "timestamp": "2:26",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      7531
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      36920,
+                      7531,
+                      22,
+                      7382
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P1-WARDRK",
+          "tank_mits": [
+            {
+              "id": "FRU-P1-WD01",
+              "name": "Powder Mark Trail 1",
+              "nickname": "PMT 1",
+              "timestamp": "0:24",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      43
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": []
+              }
+            },
+            {
+              "id": "FRU-P1-WD02",
+              "name": "Burn Mark 1",
+              "nickname": "BM 1",
+              "timestamp": "0:41",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      7531,
+                      40,
+                      25751
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      7531,
+                      3634,
+                      7393
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P1-WD03",
+              "name": "Powder Mark Trail 2",
+              "nickname": "PMT 2",
+              "timestamp": "2:10",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      36923,
+                      7531,
+                      40,
+                      25751
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(Late)",
+                      "aID": 7531
+                    }
+                  },
+                  {
+                    "note": "Late 40% should cover burnished glory 2 (shake first)"
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      -7393,
+                      -25754
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P1-WD04",
+              "name": "Burn Mark 2",
+              "nickname": "BM 2",
+              "timestamp": "2:26",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      7531
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      36927,
+                      7531,
+                      3634,
+                      -7393,
+                      -25754
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P1-GNBDRK",
+          "tank_mits": [
+            {
+              "id": "FRU-P1-GD01",
+              "name": "Powder Mark Trail 1",
+              "nickname": "PMT 1",
+              "timestamp": "0:24",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      16152
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": []
+              }
+            },
+            {
+              "id": "FRU-P1-GD02",
+              "name": "Burn Mark 1",
+              "nickname": "BM 1",
+              "timestamp": "0:41",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      7531,
+                      16140,
+                      25758
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      7531,
+                      3634,
+                      7393
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P1-GD03",
+              "name": "Powder Mark Trail 2",
+              "nickname": "PMT 2",
+              "timestamp": "2:10",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      36935,
+                      7531,
+                      16140,
+                      25758
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(Late)",
+                      "aID": 7531
+                    }
+                  },
+                  {
+                    "note": "Late 40% should cover burnished glory 2 (shake first)"
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      -7393,
+                      -25754
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P1-GD04",
+              "name": "Burn Mark 2",
+              "nickname": "BM 2",
+              "timestamp": "2:26",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      7531,
+                      16140
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      36927,
+                      7531,
+                      3634,
+                      -7393,
+                      -25754
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P1-GNBPLD",
+          "tank_mits": [
+            {
+              "id": "FRU-P1-GP01",
+              "name": "Powder Mark Trail 1",
+              "nickname": "PMT 1",
+              "timestamp": "0:24",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      16152
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": []
+              }
+            },
+            {
+              "id": "FRU-P1-GP02",
+              "name": "Burn Mark 1",
+              "nickname": "BM 1",
+              "timestamp": "0:41",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      7531,
+                      16140,
+                      25758
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      7531,
+                      22
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P1-GP03",
+              "name": "Powder Mark Trail 2",
+              "nickname": "PMT 2",
+              "timestamp": "2:10",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      36935,
+                      7531,
+                      16140,
+                      25758
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(Late)",
+                      "aID": 7531
+                    }
+                  },
+                  {
+                    "note": "Late 40% should cover burnished glory 2 (shake first)"
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      7382
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P1-GP04",
+              "name": "Burn Mark 2",
+              "nickname": "BM 2",
+              "timestamp": "2:26",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      7531,
+                      16140
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      36920,
+                      7531,
+                      22
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P1-PLDDRK",
+          "tank_mits": [
+            {
+              "id": "FRU-P1-PD01",
+              "name": "Powder Mark Trail 1",
+              "nickname": "PMT 1",
+              "timestamp": "0:24",
+              "mits": {
+                "Paladin": [
+                  {
+                    "actionId": [
+                      30
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": []
+              }
+            },
+            {
+              "id": "FRU-P1-PD02",
+              "name": "Burn Mark 1",
+              "nickname": "BM 1",
+              "timestamp": "0:41",
+              "mits": {
+                "Paladin": [
+                  {
+                    "actionId": [
+                      7531,
+                      22,
+                      25746
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      7531,
+                      3634,
+                      7393
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P1-PD03",
+              "name": "Powder Mark Trail 2",
+              "nickname": "PMT 2",
+              "timestamp": "2:10",
+              "mits": {
+                "Paladin": [
+                  {
+                    "actionId": [
+                      36920,
+                      22,
+                      25746
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(Late)",
+                      "aID": 7531
+                    }
+                  },
+                  {
+                    "note": "Late 40% should cover burnished glory 2 (shake first)"
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      -7393,
+                      -25754
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P1-PD04",
+              "name": "Burn Mark 2",
+              "nickname": "BM 2",
+              "timestamp": "2:26",
+              "mits": {
+                "Paladin": [
+                  {
+                    "actionId": [
+                      7531,
+                      25746
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      36927,
+                      7531,
+                      3634,
+                      -7393,
+                      -25754
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FRU-P2",
+      "name": "Shiva",
+      "mechanics": [
+        {
+          "id": "FRU-P2-M01",
+          "name": "Diamond Dust",
+          "nickname": "DD",
+          "timestamp": "0:37",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Tank 2": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  7433
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  3613
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [],
+            "Melee 2": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "Feint at start of Mirror Image castbar to have back up for Banish III"
+              }
+            ],
+            "Phys Range": [],
+            "Caster": [
+              {
+                "actionId": [
+                  7560
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "Addle at start of Mirror Image castbar to have back up for Banish III"
+              }
+            ],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P2-M02",
+          "name": "Sinbound Holy",
+          "nickname": "DD LPs",
+          "timestamp": "0:59",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  3585,
+                  25868
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "Expedience should be used as soon as Frigid Stone prey markers appear"
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  24300,
+                  37034,
+                  24310
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [],
+            "Astro": [],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "Samba/Tact/Troub should be used walking in before KB"
+              }
+            ],
+            "Caster": [],
+            "Extras": [
+              {
+                "actionId": [
+                  25857,
+                  7408,
+                  65
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "FRU-P2-M03",
+          "name": "Hallowed Ray",
+          "nickname": "stack",
+          "timestamp": "1:25",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Tank 2": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [],
+            "Astro": [],
+            "Melee 1": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": [
+              {
+                "actionId": [
+                  7385
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "FRU-P2-M04",
+          "name": "Mirror Mirror",
+          "nickname": "MM",
+          "timestamp": "1:35",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  16538,
+                  29237
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  24311
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  7433,
+                  16536
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  16559,
+                  37031
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P2-M05",
+          "name": "Banish III",
+          "nickname": "B III",
+          "timestamp": "2:05",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "(Late)",
+                  "aID": 7535
+                }
+              },
+              {
+                "note": "Buddy Mit melee"
+              }
+            ],
+            "Tank 2": [
+              {
+                "actionId": [
+                  -1
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "Buddy Mit melee"
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  37011
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  37031
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [],
+            "Melee 2": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "(Late)",
+                  "aID": 7549
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Phys Range": [],
+            "Caster": [
+              {
+                "actionId": [
+                  7560
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "(Late)",
+                  "aID": 7560
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P2-M06",
+          "name": "Light Rampart",
+          "nickname": "LR",
+          "timestamp": "2:14",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [],
+            "Astro": [
+              {
+                "actionId": [
+                  3613
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [],
+            "Melee 2": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Phys Range": [],
+            "Caster": [
+              {
+                "actionId": [
+                  7560
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Extras": [
+              {
+                "actionId": [
+                  2887,
+                  65
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "FRU-P2-M07",
+          "name": "Powerful Light",
+          "nickname": "LR LP",
+          "timestamp": "2:31",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  3585,
+                  37014
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  24300,
+                  37034,
+                  37035
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  25862
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  25874
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Caster": [],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P2-M08",
+          "name": "Banish III",
+          "nickname": "B III",
+          "timestamp": "2:43",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  25868,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "(Early)",
+                  "aID": 188
+                }
+              },
+              {
+                "note": "Soil should be used immediately after walking towards the middle tower soak"
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "(Early)",
+                  "aID": 24298
+                }
+              },
+              {
+                "note": "Kera should be used immediately after walking towards the middle tower soak"
+              }
+            ],
+            "White Mage": [],
+            "Astro": [],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P2-M09",
+          "name": "House of Light",
+          "nickname": "HoL",
+          "timestamp": "2:52",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  25868
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  24310
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [],
+            "Astro": [],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P2-M10",
+          "name": "Absolute Zero",
+          "nickname": "AZ",
+          "timestamp": "3:12",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  7535,
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  7433
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  3613
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": [
+              {
+                "actionId": [
+                  25857
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "FRU-P2-M11",
+          "name": "Junction(Transition)",
+          "nickname": "Junc",
+          "timestamp": "4:29",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [],
+            "Astro": [
+              {
+                "actionId": [
+                  3613
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": [
+              {
+                "actionId": [
+                  7385
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        }
+      ],
+      "tank_combos": [
+        {
+          "id": "FRU-P2-WARGNB",
+          "tank_mits": [
+            {
+              "id": "FRU-P2-WG01",
+              "name": "Quadruple Slap",
+              "nickname": "Slap",
+              "timestamp": "0:17",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      -1
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": "Personal mit is free for autos this phase"
+                  }
+                ],
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      16152
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P2-WARPLD",
+          "tank_mits": [
+            {
+              "id": "FRU-P2-WP01",
+              "name": "Quadruple Slap",
+              "nickname": "Slap",
+              "timestamp": "0:17",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      -1
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": "Personal mit is free for autos this phase"
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      30
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P2-WARDRK",
+          "tank_mits": [
+            {
+              "id": "FRU-P2-WD01",
+              "name": "Quadruple Slap",
+              "nickname": "Slap",
+              "timestamp": "0:17",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      -1
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": "Personal mit is free for autos this phase"
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      3638
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P2-GNBDRK",
+          "tank_mits": [
+            {
+              "id": "FRU-P2-GD01",
+              "name": "Quadruple Slap",
+              "nickname": "Slap",
+              "timestamp": "0:17",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      -1
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": "Personal mit is free for autos this phase"
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      3638
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P2-GNBPLD",
+          "tank_mits": [
+            {
+              "id": "FRU-P2-GD01",
+              "name": "Quadruple Slap",
+              "nickname": "Slap",
+              "timestamp": "0:17",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      -1
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": "Personal mit is free for autos this phase"
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      30
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P2-PLDDRK",
+          "tank_mits": [
+            {
+              "id": "FRU-P2-PD01",
+              "name": "Quadruple Slap",
+              "nickname": "Slap",
+              "timestamp": "0:17",
+              "mits": {
+                "Paladin": [
+                  {
+                    "actionId": [
+                      -1
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": "Personal mit is free for autos this phase"
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      3638
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FRU-P3",
+      "name": "Gaia",
+      "mechanics": [
+        {
+          "id": "FRU-P3-M01",
+          "name": "Ultimate Relativity",
+          "nickname": "UR",
+          "timestamp": "0:18",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "15s mits slightly after Hell's Judgement to have up for Shell Crusher "
+              }
+            ],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "15s mits slightly after Hell's Judgement to have up for additional use on CD for soil"
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "15s mits slightly after Hell's Judgement to have up for additional use on CD for kera"
+              }
+            ],
+            "White Mage": [],
+            "Astro": [],
+            "Melee 1": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [
+              {
+                "actionId": [
+                  7560
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P3-M02",
+          "name": "Fire/Dark Set 1/2",
+          "nickname": "UR 1/2",
+          "timestamp": "0:32",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  3585,
+                  29237,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24310,
+                  24311,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  16536,
+                  7433
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  16559
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Caster": [],
+            "Extras": [
+              {
+                "actionId": [
+                  7408,
+                  65
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "FRU-P3-M03",
+          "name": "Set 3 and Rewind",
+          "nickname": "UR 3/Re",
+          "timestamp": "0:52",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  37014
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  37035
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  37011,
+                  25862
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  25874,
+                  37031
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": [
+              {
+                "actionId": [
+                  25857
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "FRU-P3-M04",
+          "name": "Shell Crusher",
+          "nickname": "SC",
+          "timestamp": "1:05",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Tank 2": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [],
+            "Astro": [
+              {
+                "actionId": [
+                  3613
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [],
+            "Melee 2": [
+              {
+                "actionId": [
+                  7560
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P3-M05",
+          "name": "Shockwave Pulsar",
+          "nickname": "Pulsar",
+          "timestamp": "1:14",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [],
+            "Astro": [],
+            "Melee 1": [],
+            "Melee 2": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": [
+              {
+                "actionId": [
+                  2887
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "FRU-P3-M06",
+          "name": "Dark Water 1",
+          "nickname": "DW 1",
+          "timestamp": "1:50",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  25868,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [],
+            "Astro": [],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P3-M07",
+          "name": "Dark Eruption",
+          "nickname": "DE",
+          "timestamp": "2:05",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  25868,
+                  3585
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  7433
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P3-M08",
+          "name": "Shockwave Pulsar",
+          "nickname": "Pulsar",
+          "timestamp": "2:26",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  7535,
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "The timing for 15s to catch Shockwave Pulsar and Memory's End is fairly precise, hit mits at the P in Pulsar"
+              }
+            ],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [],
+            "Astro": [],
+            "Melee 1": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "The timing for 15s to catch Shockwave Pulsar and Memory's End is fairly precise, hit mits at the P in Pulsar"
+              }
+            ],
+            "Melee 2": [],
+            "Phys Range": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "The timing for 15s to catch Shockwave Pulsar and Memory's End is fairly precise, hit mits at the P in Pulsar"
+              }
+            ],
+            "Caster": [
+              {
+                "actionId": [
+                  7560
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "The timing for 15s to catch Shockwave Pulsar and Memory's End is fairly precise, hit mits at the P in Pulsar"
+              }
+            ],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P3-M09",
+          "name": "Memory's End",
+          "nickname": "End",
+          "timestamp": "2:39",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  24310,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "(Early)",
+                  "aID": 24310
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [],
+            "Astro": [
+              {
+                "actionId": [
+                  3613
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 2": [],
+            "Phys Range": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Caster": [
+              {
+                "actionId": [
+                  7560
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Extras": [
+              {
+                "actionId": [
+                  7385
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        }
+      ],
+      "tank_combos": [
+        {
+          "id": "FRU-P3-WARGNB",
+          "tank_mits": [
+            {
+              "id": "FRU-P3-WG01",
+              "name": "Black Halo",
+              "nickname": "Halo",
+              "timestamp": "1:37",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      -25758
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P3-WG02",
+              "name": "Darkest Dance",
+              "nickname":  "Dance",
+              "timestamp": "1:37",
+              "mits": {
+                "Warrior": [],
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      16152
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P3-WARPLD",
+          "tank_mits": [
+            {
+              "id": "FRU-P3-WP01",
+              "name": "Black Halo",
+              "nickname": "Halo",
+              "timestamp": "1:37",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      7382
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P3-WP02",
+              "name": "Darkest Dance",
+              "nickname": "Dance",
+              "timestamp": "1:37",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      16464
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P3-WARDRK",
+          "tank_mits": [
+            {
+              "id": "FRU-P3-WD01",
+              "name": "Black Halo",
+              "nickname": "Halo",
+              "timestamp": "1:37",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      -7393,
+                      -25754
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P3-WD02",
+              "name": "Darkest Dance",
+              "nickname": "Dance",
+              "timestamp": "1:37",
+              "mits": {
+                "Warrior": [],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      3638
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P3-GNBDRK",
+          "tank_mits": [
+            {
+              "id": "FRU-P3-GD01",
+              "name": "Black Halo",
+              "nickname": "Halo",
+              "timestamp": "1:37",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      -7393,
+                      -25754
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P3-GD02",
+              "name": "Darkest Dance",
+              "nickname": "Dance",
+              "timestamp": "1:37",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      -25758
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": "DRK can invuln Darkest Dance instead.This requires swapping all invulns in p4 and p5"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P3-GNBPLD",
+          "tank_mits": [
+            {
+              "id": "FRU-P3-GP01",
+              "name": "Black Halo",
+              "nickname": "Halo",
+              "timestamp": "1:37",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      7382
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P3-GP02",
+              "name": "Darkest Dance",
+              "nickname": "Dance",
+              "timestamp": "1:37",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      -25758
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P3-PLDDRK",
+          "tank_mits": [
+            {
+              "id": "FRU-P3-PD01",
+              "name": "Black Halo",
+              "nickname": "Halo",
+              "timestamp": "1:37",
+              "mits": {
+                "Paladin": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      -7393,
+                      -25754
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P3-PD02",
+              "name": "Darkest Dance",
+              "nickname": "Dance",
+              "timestamp": "1:37",
+              "mits": {
+                "Paladin": [
+                  {
+                    "actionId": [
+                      7382
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": "Don't get baited by Hallowed being up"
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FRU-P4",
+      "name": "Light and Dark",
+      "mechanics": [
+        {
+          "id": "FRU-P4-M01",
+          "name": "Darklit Dragonsong",
+          "nickname": "Darklit",
+          "timestamp": "0:33",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [
+              {
+                "actionId": [
+                  7535,
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  16542,
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  24300,
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  16536
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  16559
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": [
+              {
+                "actionId": [
+                  2887,
+                  25857,
+                  7408
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "FRU-P4-M02",
+          "name": "The Path of Light",
+          "nickname": "Proteans",
+          "timestamp": "0:51",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  16536,
+                  37011,
+                  7433
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  16559,
+                  37031
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P4-M03",
+          "name": "Akh Morn Afah",
+          "nickname": "Akh",
+          "timestamp": "1:11",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  29237,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "Soil should be used after 2nd somber"
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24311,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "Kera should be used after 2nd somber"
+              }
+            ],
+            "White Mage": [],
+            "Astro": [],
+            "Melee 1": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "(Shiva)",
+                  "aID": 7549
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 2": [],
+            "Phys Range": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Caster": [],
+            "Extras": [
+              {
+                "actionId": [
+                  65
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "FRU-P4-M04",
+          "name": "Crystallize Time",
+          "nickname": "CT",
+          "timestamp": "1:30",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Tank 2": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  7433
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  3613
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [],
+            "Melee 2": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "(Gaia)",
+                  "aID": 7549
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Phys Range": [],
+            "Caster": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P4-M05",
+          "name": "Crystallize Mech",
+          "nickname": "CT Mech",
+          "timestamp": "1:44",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  3585,
+                  25868,
+                  37014
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24310,
+                  37035
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  25862
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "Bell should be used immediately for the Crystallize Time castbar finishes to heal for dark party stack"
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  25874
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "Macro should be used immediately for the Crystallize Time castbar finishes to heal for dark party stack"
+              }
+            ],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P4-M06",
+          "name": "Hallowed Wing",
+          "nickname": "Wing",
+          "timestamp": "2:17",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "Soil immediately after rewinds are placed to have up for Morn Afah"
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "Kera immediately after rewinds are placed to have up for Morn Afah"
+              }
+            ],
+            "White Mage": [],
+            "Astro": [],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Caster": [],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P4-M07",
+          "name": "Akh Morn Afah",
+          "nickname": "Akh",
+          "timestamp": "2:34",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  7433,
+                  16536,
+                  37011
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  16559,
+                  37031,
+                  3613
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "(Shiva)",
+                  "aID": 7549
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Caster": [],
+            "Extras": [
+              {
+                "actionId": [
+                  2887,
+                  25857,
+                  7385,
+                  7408,
+                  65
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        }
+      ],
+      "tank_combos": [
+        {
+          "id": "FRU-P4-WARGNB",
+          "tank_mits": [
+            {
+              "id": "FRU-P4-WG01",
+              "name": "Somber Dance",
+              "nickname": "Dance",
+              "timestamp": "0:56",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      43
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Gunbreaker": []
+              }
+            },
+            {
+              "id": "FRU-P4-WG02",
+              "name": "Ahk Morn Afah 7/1",
+              "nickname": "7/1",
+              "timestamp": "1:12",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      16464
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": "Either tank can solo Akh Morn, discuss with your cotank"
+                  }
+                ],
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      7531,
+                      16140,
+                      25758
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(Right After 1st Somber)",
+                      "aID": 7531
+                    }
+                  },
+                  {
+                    "note": "Either tank can solo Akh Morn, discuss with your cotank"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P4-WG03",
+              "name": "Hallowed Wing",
+              "nickname": "Wing",
+              "timestamp": "2:18",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      36923,
+                      40
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      36935
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P4-WG04",
+              "name": "Akh Morn Afah 7/1",
+              "nickname": "7/1",
+              "timestamp": "2:35",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      7531,
+                      25751
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      -25758
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P4-WARPLD",
+          "tank_mits": [
+            {
+              "id": "FRU-P4-WP01",
+              "name": "Somber Dance",
+              "nickname": "Dance",
+              "timestamp": "0:56",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      43
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": []
+              }
+            },
+            {
+              "id": "FRU-P4-WP02",
+              "name": "Ahk Morn Afah 7/1",
+              "nickname": "7/1",
+              "timestamp": "1:12",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      16464
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": "Either tank can solo Akh Morn, discuss with your cotank"
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      7531,
+                      22,
+                      25746
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(Right After 1st Somber)",
+                      "aID": 7531
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P4-WP03",
+              "name": "Hallowed Wing",
+              "nickname": "Wing",
+              "timestamp": "2:18",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      36923,
+                      40
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      36920
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P4-WP04",
+              "name": "Akh Morn Afah 7/1",
+              "nickname": "7/1",
+              "timestamp": "2:35",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      7531,
+                      25751
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      7382
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P4-WARDRK",
+          "tank_mits": [
+            {
+              "id": "FRU-P4-WD01",
+              "name": "Somber Dance",
+              "nickname": "Dance",
+              "timestamp": "0:56",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      43
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": []
+              }
+            },
+            {
+              "id": "FRU-P4-WD02",
+              "name": "Ahk Morn Afah 7/1",
+              "nickname": "7/1",
+              "timestamp": "1:12",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      16464
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": "Either tank can solo Akh Morn, discuss with your cotank "
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      7531,
+                      3634,
+                      7393,
+                      25754
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(Right After 1st Somber)",
+                      "aID": 7531
+                    }
+                  },
+                  {
+                    "note": "Either tank can solo Akh Morn, discuss with your cotank "
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P4-WD03",
+              "name": "Hallowed Wing",
+              "nickname": "Wing",
+              "timestamp": "2:18",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      36923,
+                      40
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      36927,
+                      3634
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P4-WD04",
+              "name": "Akh Morn Afah 7/1",
+              "nickname": "7/1",
+              "timestamp": "2:35",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      7531,
+                      25751
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      -7393,
+                      -25754
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P4-GNBDRK",
+          "tank_mits": [
+            {
+              "id": "FRU-P1-GD01",
+              "name": "Somber Dance",
+              "nickname": "Dance",
+              "timestamp": "0:56",
+              "mits": {
+                "Gunbreaker": [],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      3638
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P1-GD02",
+              "name": "Ahk Morn Afah 7/1",
+              "nickname": "7/1",
+              "timestamp": "1:12",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      7531,
+                      16140,
+                      25758
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(Right After 1st Somber)",
+                      "aID": 7531
+                    }
+                  },
+                  {
+                    "note": "Either tank can solo Akh Morn, discuss with your cotank"
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      -7393,
+                      -25754
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": "Either tank can solo Akh Morn, discuss with your cotank"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P1-GD03",
+              "name": "Hallowed Wing",
+              "nickname": "Wing",
+              "timestamp": "2:18",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      36935
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      36927,
+                      3634
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P1-GD04",
+              "name": "Akh Morn Afah 7/1",
+              "nickname": "7/1",
+              "timestamp": "2:35",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      -25758
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      7531,
+                      7393,
+                      25754
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P4-GNBPLD",
+          "tank_mits": [
+            {
+              "id": "FRU-P4-GP01",
+              "name": "Somber Dance",
+              "nickname": "Dance",
+              "timestamp": "0:56",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      16152
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": []
+              }
+            },
+            {
+              "id": "FRU-P4-GP02",
+              "name": "Ahk Morn Afah 7/1",
+              "nickname": "7/1",
+              "timestamp": "1:12",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      -25758
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": "Either tank can solo Akh Morn, discuss with your cotank"
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      7531,
+                      22,
+                      25746
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(Right After 1st Somber)",
+                      "aID": 7531
+                    }
+                  },
+                  {
+                    "note": "Either tank can solo Akh Morn, discuss with your cotank"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P4-GP03",
+              "name": "Hallowed Wing",
+              "nickname": "Wing",
+              "timestamp": "2:18",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      36935
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      36920
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P4-GP04",
+              "name": "Akh Morn Afah 7/1",
+              "nickname": "7/1",
+              "timestamp": "2:35",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      7531,
+                      16140,
+                      25758
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      7382
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P4-PLDDRK",
+          "tank_mits": [
+            {
+              "id": "FRU-P4-PD01",
+              "name": "Somber Dance",
+              "nickname": "Dance",
+              "timestamp": "0:56",
+              "mits": {
+                "Paladin": [],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      3638
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P4-PD02",
+              "name": "Ahk Morn Afah 7/1",
+              "nickname": "7/1",
+              "timestamp": "1:12",
+              "mits": {
+                "Paladin": [
+                  {
+                    "actionId": [
+                      7531,
+                      22,
+                      25746
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(Right After 1st Somber)",
+                      "aID": 7531
+                    }
+                  },
+                  {
+                    "note": "Either tank can solo Akh Morn, discuss with your cotank"
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      -7393,
+                      -25754
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P4-PD03",
+              "name": "Hallowed Wing",
+              "nickname": "Wing",
+              "timestamp": "2:18",
+              "mits": {
+                "Paladin": [
+                  {
+                    "actionId": [
+                      36920
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      36927,
+                      3634
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P4-PD04",
+              "name": "Akh Morn Afah 7/1",
+              "nickname": "7/1",
+              "timestamp": "2:35",
+              "mits": {
+                "Paladin": [
+                  {
+                    "actionId": [
+                      7382
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      7531,
+                      7393,
+                      25754
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FRU-P5",
+      "name": "Pandora",
+      "mechanics": [
+        {
+          "id": "FRU-P5-M01",
+          "name": "Fulgent Blade 1",
+          "nickname": "FB 1",
+          "timestamp": "0:07",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  7433
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  3613
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": [
+              {
+                "actionId": [
+                  7385
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "FRU-P5-M02",
+          "name": "Akh Morn 1",
+          "nickname": "Akh 1",
+          "timestamp": "0:31",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Tank 2": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  3585,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  24310,
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "(Early)",
+                  "aID": 24310
+                }
+              },
+              {
+                "note": "Holos immediately after dodging first exaline"
+              }
+            ],
+            "White Mage": [],
+            "Astro": [],
+            "Melee 1": [],
+            "Melee 2": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Phys Range": [],
+            "Caster": [
+              {
+                "actionId": [
+                  7560
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Extras": [
+              {
+                "actionId": [
+                  2887,
+                  25857,
+                  65
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "FRU-P5-M03",
+          "name": "Polarizing Strikes 1",
+          "nickname": "PS 1",
+          "timestamp": "1:12",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Tank 2": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  29237,
+                  16538,
+                  25868,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  24311,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  16536,
+                  37011
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  16559,
+                  37031
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Caster": [],
+            "Extras": [
+              {
+                "actionId": [
+                  7408
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "FRU-P5-M04",
+          "name": "Pandora's Box",
+          "nickname": "Box",
+          "timestamp": "1:42",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  -2
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": "LB Prio: WAR > DRK > PLD > GNB"
+              }
+            ],
+            "Tank 2": [
+              {
+                "actionId": [
+                  -2,
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "(B in Box)",
+                  "aID": 7535
+                }
+              },
+              {
+                "note": "LB Prio: WAR > DRK > PLD > GNB"
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "(B in Box)",
+                  "aID": 188
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "(B in Box)",
+                  "aID": 24298
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [],
+            "Astro": [],
+            "Melee 1": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "(B in Box)",
+                  "aID": 7549
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P5-M05",
+          "name": "Fulgent Blade 2",
+          "nickname": "FB 2",
+          "timestamp": "1:49",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  7433
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  3613
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": []
+          }
+        },
+        {
+          "id": "FRU-P5-M06",
+          "name": "Akh Morn 2",
+          "nickname": "Akh 2",
+          "timestamp": "2:24",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  7535,
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  3585,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  24310,
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [],
+            "Astro": [],
+            "Melee 1": [],
+            "Melee 2": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Phys Range": [],
+            "Caster": [
+              {
+                "actionId": [
+                  7560
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Extras": [
+              {
+                "actionId": [
+                  65
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "FRU-P5-M07",
+          "name": "Polarizing Strikes 2",
+          "nickname": "PS 2",
+          "timestamp": "3:04",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  29237,
+                  37014,
+                  25868,
+                  16538
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  24311,
+                  37035
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  16536,
+                  25862,
+                  37011
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  16559,
+                  37031,
+                  25874
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [],
+            "Melee 2": [],
+            "Phys Range": [
+              {
+                "actionId": [
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Caster": [],
+            "Extras": [
+              {
+                "actionId": [
+                  25857,
+                  7408
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "FRU-P5-M08",
+          "name": "Fulgent Blade 3",
+          "nickname": "FB 3",
+          "timestamp": "3:29",
+          "mits": {
+            "Tank 1": [],
+            "Tank 2": [
+              {
+                "actionId": [
+                  7535
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Scholar": [
+              {
+                "actionId": [
+                  37013,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [
+              {
+                "actionId": [
+                  16536,
+                  7433
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Astro": [
+              {
+                "actionId": [
+                  16559,
+                  3613
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 1": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Melee 2": [],
+            "Phys Range": [],
+            "Caster": [],
+            "Extras": [
+              {
+                "actionId": [
+                  2887,
+                  7385
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "FRU-P5-M09",
+          "name": "Akh Morn 3",
+          "nickname": "Akh 3",
+          "timestamp": "3:55",
+          "mits": {
+            "Tank 1": [
+              {
+                "actionId": [
+                  7535,
+                  0
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Tank 2": [],
+            "Scholar": [
+              {
+                "actionId": [
+                  3585,
+                  188
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Sage": [
+              {
+                "actionId": [
+                  24300,
+                  37034,
+                  24298
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "White Mage": [],
+            "Astro": [],
+            "Melee 1": [],
+            "Melee 2": [
+              {
+                "actionId": [
+                  7549
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Phys Range": [],
+            "Caster": [
+              {
+                "actionId": [
+                  7560
+                ]
+              },
+              {
+                "timing": {
+                  "txt": "",
+                  "aID": -1
+                }
+              },
+              {
+                "note": ""
+              }
+            ],
+            "Extras": []
+          }
+        }
+      ],
+      "tank_combos": [
+        {
+          "id": "FRU-P5-WARGNB",
+          "tank_mits": [
+            {
+              "id": "FRU-P5-WG01",
+              "name": "Wings 1",
+              "nickname": "Wing 1",
+              "timestamp": "0:50",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      43,
+                      16464
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(2nd Hit)",
+                      "aID": 16464
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P5-WG02",
+              "name": "Wings 2",
+              "nickname": "Wing 2",
+              "timestamp": "2:48",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      16152,
+                      -25758
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(2nd Hit)",
+                      "aID": -25758
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P5-WARPLD",
+          "tank_mits": [
+            {
+              "id": "FRU-P5-WP01",
+              "name": "Wings 1",
+              "nickname": "Wing 1",
+              "timestamp": "0:50",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      43,
+                      16464
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(2nd Hit)",
+                      "aID": 16464
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P5-WP02",
+              "name": "Wings 2",
+              "nickname": "Wing 2",
+              "timestamp": "2:48",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      30,
+                      7382
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(2nd Hit)",
+                      "aID": 7382
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P5-WARDRK",
+          "tank_mits": [
+            {
+              "id": "FRU-P5-WD01",
+              "name": "Wings 1",
+              "nickname": "Wing 1",
+              "timestamp": "0:50",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      43,
+                      16464
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(2nd Hit)",
+                      "aID": 16464
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P5-WD02",
+              "name": "Wings 2",
+              "nickname": "Wing 2",
+              "timestamp": "2:48",
+              "mits": {
+                "Warrior": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(TBN 2nd Hit)",
+                      "aID": -3
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      3638,
+                      -7393
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(2nd Hit)",
+                      "aID": -7393
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P5-GNBDRK",
+          "tank_mits": [
+            {
+              "id": "FRU-P5-GD01",
+              "name": "Wings 1",
+              "nickname": "Wing 1",
+              "timestamp": "0:50",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      16152,
+                      -25758
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(2nd Hit)",
+                      "aID": -25758
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(TBN 2nd Hit)",
+                      "aID": -3
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P5-GD02",
+              "name": "Wings 2",
+              "nickname": "Wing 2",
+              "timestamp": "2:48",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      3638,
+                      -7393
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(2nd Hit)",
+                      "aID": -7393
+                    }
+                  },
+                  {
+                    "note": "DRK can invuln Darkest Dance instead.This requires swapping all invulns in p4 and p5"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P5-GNBPLD",
+          "tank_mits": [
+            {
+              "id": "FRU-P5-GP01",
+              "name": "Wings 1",
+              "nickname": "Wing 1",
+              "timestamp": "0:50",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      30,
+                      7382
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(2nd Hit)",
+                      "aID": 7382
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P5-GP02",
+              "name": "Wings 2",
+              "nickname": "Wing 2",
+              "timestamp": "2:48",
+              "mits": {
+                "Gunbreaker": [
+                  {
+                    "actionId": [
+                      16152,
+                      -25758
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(2nd Hit)",
+                      "aID": -25758
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "Paladin": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "FRU-P5-PLDDRK",
+          "tank_mits": [
+            {
+              "id": "FRU-P5-PD01",
+              "name": "Wings 1",
+              "nickname": "Wing 1",
+              "timestamp": "0:50",
+              "mits": {
+                "Paladin": [
+                  {
+                    "actionId": [
+                      30,
+                      7382
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(2nd Hit)",
+                      "aID": 7382
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(TBN 2nd Hit)",
+                      "aID": -3
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            },
+            {
+              "id": "FRU-P5-PD02",
+              "name": "Wings 2",
+              "nickname": "Wing 2",
+              "timestamp": "2:48",
+              "mits": {
+                "Paladin": [
+                  {
+                    "actionId": [
+                      -3
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "",
+                      "aID": -1
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ],
+                "DarkKnight": [
+                  {
+                    "actionId": [
+                      3638,
+                      -7393
+                    ]
+                  },
+                  {
+                    "timing": {
+                      "txt": "(2nd Hit)",
+                      "aID": -7393
+                    }
+                  },
+                  {
+                    "note": ""
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
