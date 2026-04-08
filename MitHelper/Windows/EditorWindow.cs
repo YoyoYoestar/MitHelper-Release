@@ -32,6 +32,7 @@ public class EditorWindow : Window, IDisposable
     private string  abilitySearch  = "";
     private string? pickerCol      = null;
     private bool    openPicker     = false;
+    private bool    showAllAbilities = false;
 
     // Sheet loader
     private List<(string Path, string Name)> loadList = new();
@@ -481,15 +482,21 @@ public class EditorWindow : Window, IDisposable
     private void DrawAbilityPicker()
     {
         if (openPicker) { ImGui.OpenPopup("##picker"); openPicker = false; }
-        ImGui.SetNextWindowSize(new Vector2(370, 440), ImGuiCond.Always);
+        ImGui.SetNextWindowSize(new Vector2(370, 460), ImGuiCond.Always);
         if (!ImGui.BeginPopup("##picker")) return;
 
         ImGui.Text($"Add ability  →  {pickerCol}");
         ImGui.Separator();
         ImGui.SetNextItemWidth(-1);
         ImGui.InputText("##ps", ref abilitySearch, 64);
-        ImGui.TextDisabled("Click = own mit       Right-click = buddy mit");
+
+        // Show All toggle — off by default so list is filtered to the column's relevant abilities
+        ImGui.Checkbox("Show all abilities", ref showAllAbilities);
+        ImGui.SameLine();
+        ImGui.TextDisabled("Click = own   Right-click = buddy");
         ImGui.Spacing();
+
+        var allowed = showAllAbilities ? null : GetAllowedIds(pickerCol);
 
         using (var lst = ImRaii.Child("##plist", new Vector2(0, -46), false))
         {
@@ -499,6 +506,10 @@ public class EditorWindow : Window, IDisposable
                 foreach (var (id, info) in AbilityExtraInfoData.AbilitiesInfo
                     .OrderBy(kv => kv.Value.Nickname, StringComparer.OrdinalIgnoreCase))
                 {
+                    // Column filter
+                    if (allowed != null && !allowed.Contains(id)) continue;
+
+                    // Search filter
                     if (!string.IsNullOrEmpty(term) &&
                         !info.Nickname.Contains(term, StringComparison.OrdinalIgnoreCase) &&
                         !info.Name.Contains(term, StringComparison.OrdinalIgnoreCase))
@@ -537,6 +548,111 @@ public class EditorWindow : Window, IDisposable
 
         ImGui.EndPopup();
     }
+
+    /// Returns the set of ability IDs relevant for a given column/job.
+    /// Returns null if the column is unrecognised (show everything).
+    private static HashSet<uint>? GetAllowedIds(string? col) => col switch
+    {
+        // ── Shared tank mits (always relevant for any tank column) ────────────
+        "Tank 1" or "Tank 2" => new HashSet<uint>
+        {
+            Abilities.Reprisal, Abilities.Rampart,
+            // WAR
+            Abilities.Holmgang, Abilities.ThrillOfBattle, Abilities.Damnation,
+            Abilities.Bloodwhetting, Abilities.NascentFlash, Abilities.Vengeance, Abilities.RawIntuition,
+            Abilities.ShakeItOff,
+            // PLD
+            Abilities.HallowedGround, Abilities.Guardian, Abilities.Bulwark,
+            Abilities.HolySheltron, Abilities.Sheltron, Abilities.Intervention,
+            Abilities.Sentinel, Abilities.DivineVeil, Abilities.PassageOfArms,
+            // DRK
+            Abilities.LivingDead, Abilities.ShadowWall, Abilities.TheBlackestNight,
+            Abilities.Oblation, Abilities.DarkMind, Abilities.ShadowVigil, Abilities.DarkMissionary,
+            // GNB
+            Abilities.Superbolide, Abilities.Aurora, Abilities.GreatNebula, Abilities.Nebula,
+            Abilities.Camouflage, Abilities.HeartOfCorundum, Abilities.HeartOfStone, Abilities.HeartOfLight,
+        },
+
+        // ── Individual tank job columns (tank busters) ────────────────────────
+        "Warrior" => new HashSet<uint>
+        {
+            Abilities.Reprisal, Abilities.Rampart,
+            Abilities.Holmgang, Abilities.ThrillOfBattle, Abilities.Damnation,
+            Abilities.Bloodwhetting, Abilities.NascentFlash, Abilities.Vengeance,
+            Abilities.RawIntuition, Abilities.ShakeItOff,
+        },
+        "Paladin" => new HashSet<uint>
+        {
+            Abilities.Reprisal, Abilities.Rampart,
+            Abilities.HallowedGround, Abilities.Guardian, Abilities.Bulwark,
+            Abilities.HolySheltron, Abilities.Sheltron, Abilities.Intervention,
+            Abilities.Sentinel, Abilities.DivineVeil, Abilities.PassageOfArms,
+        },
+        "DarkKnight" => new HashSet<uint>
+        {
+            Abilities.Reprisal, Abilities.Rampart,
+            Abilities.LivingDead, Abilities.ShadowWall, Abilities.TheBlackestNight,
+            Abilities.Oblation, Abilities.DarkMind, Abilities.ShadowVigil, Abilities.DarkMissionary,
+        },
+        "Gunbreaker" => new HashSet<uint>
+        {
+            Abilities.Reprisal, Abilities.Rampart,
+            Abilities.Superbolide, Abilities.Aurora, Abilities.GreatNebula, Abilities.Nebula,
+            Abilities.Camouflage, Abilities.HeartOfCorundum, Abilities.HeartOfStone, Abilities.HeartOfLight,
+        },
+
+        // ── Healers ───────────────────────────────────────────────────────────
+        "Scholar" => new HashSet<uint>
+        {
+            Abilities.FeyIllumination, Abilities.Deploy, Abilities.Concitation,
+            Abilities.Succor, Abilities.Soil, Abilities.Expedience,
+            Abilities.Seraphism, Abilities.SummonSeraph, Abilities.Recitation,
+        },
+        "Sage" => new HashSet<uint>
+        {
+            Abilities.Zoe, Abilities.Kerachole, Abilities.Holos, Abilities.Panhaima,
+            Abilities.Philosophia, Abilities.EukrasianPrognosis2, Abilities.EukrasianPrognosis1,
+        },
+        "White Mage" => new HashSet<uint>
+        {
+            Abilities.PlenaryIndulgence, Abilities.Temperance, Abilities.DivineCaress,
+            Abilities.LetargyOfTheBell, Abilities.Asylum,
+        },
+        "Astro" => new HashSet<uint>
+        {
+            Abilities.CollectiveUnconscious, Abilities.NeutralSect,
+            Abilities.SunSign, Abilities.Macrocosmos,
+        },
+
+        // ── Melee ─────────────────────────────────────────────────────────────
+        "Melee 1" or "Melee 2" => new HashSet<uint>
+        {
+            Abilities.Feint, Abilities.Mantra,
+        },
+
+        // ── Physical Ranged ───────────────────────────────────────────────────
+        "Phys Range" => new HashSet<uint>
+        {
+            Abilities.Tactician, Abilities.ShieldSamba, Abilities.Troubadour,
+            Abilities.Dismantle, Abilities.NaturesMinne, Abilities.Improvisation,
+        },
+
+        // ── Caster ────────────────────────────────────────────────────────────
+        "Caster" => new HashSet<uint>
+        {
+            Abilities.Addle, Abilities.MagickBarrier, Abilities.TemperaGrassa,
+        },
+
+        // ── Extras — anything that appears outside its own role column ────────
+        "Extras" => new HashSet<uint>
+        {
+            Abilities.PassageOfArms, Abilities.Mantra,
+            Abilities.Dismantle, Abilities.NaturesMinne, Abilities.Improvisation,
+            Abilities.MagickBarrier, Abilities.TemperaGrassa,
+        },
+
+        _ => null, // unknown column — show everything
+    };
 
     private void AddToCell(int actionId, bool buddy)
     {

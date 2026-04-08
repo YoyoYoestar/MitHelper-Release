@@ -255,7 +255,7 @@ public class MainWindow : Window, IDisposable
             }
 
             ImGui.TableSetColumnIndex(col++);
-            var displayName = compact && row.Nickname != null ? row.Nickname : row.Name;
+            var displayName = row.Nickname ?? row.Name;
             CenterText(displayName, row.IsTankBuster ? tbColor : null);
 
             for (int ci = 0; ci < columns.Count; ci++)
@@ -685,17 +685,26 @@ public class MainWindow : Window, IDisposable
     private static (uint myColJobId, uint otherColJobId) ResolvePartyMitJobIds(
         uint playerJobId, Configuration config, string? t1, string? t2)
     {
-        if (!JobRoleMapper.IsTank(playerJobId)) return (playerJobId, 0);
-        uint other = 0;
-        var local = Plugin.ObjectTable.LocalPlayer;
-        foreach (var m in Plugin.PartyList)
+        if (JobRoleMapper.IsTank(playerJobId))
         {
-            if (local != null && m.EntityId == local.EntityId) continue;
-            var job = m.ClassJob.Value;
-            if (job.Role != 1) continue;
-            other = job.RowId; break;
+            // Player is a tank — myColJobId is their own job, otherColJobId is the other tank
+            uint other = 0;
+            var local = Plugin.ObjectTable.LocalPlayer;
+            foreach (var m in Plugin.PartyList)
+            {
+                if (local != null && m.EntityId == local.EntityId) continue;
+                var job = m.ClassJob.Value;
+                if (job.Role != 1) continue;
+                other = job.RowId; break;
+            }
+            return (playerJobId, other);
         }
-        return (playerJobId, other);
+
+        // Non-tank: resolve Tank 1 / Tank 2 job IDs from the detected prio-sorted abbrevs
+        // so party-mit placeholders in tank columns still show the right ability.
+        uint t1JobId = t1 != null ? AbbrevToJobId(t1) : 0;
+        uint t2JobId = t2 != null ? AbbrevToJobId(t2) : 0;
+        return (t1JobId, t2JobId);
     }
 
     private static (string t1, string t2) GetPlayerRelativeTankLabels(

@@ -60,45 +60,41 @@ public class TankMitWindow : Window, IDisposable
 
         if (tbRows.Count == 0) { ImGui.Text("No tank busters this phase."); return; }
 
-        // Compact mode: show only the column for the player's tank
-        // Non-compact: show both tanks
-        bool compact = config.CompactMode && IsPlayerTank(playerJobId);
+        // compact = CompactMode AND player is a tank — non-tanks always see both cols + time
+        bool compact      = config.CompactMode && IsPlayerTank(playerJobId);
+        bool showBothCols = !compact;
+        bool showTime     = !compact;
 
-        string? playerAbbrev = null;
-        string col1Label, col2Label;
-        bool showBothCols;
+        string? playerAbbrev = compact ? JobIdToAbbrev(playerJobId) : null;
 
-        if (compact)
+        // Which internal slot does this player occupy?
+        string playerSlot = "Tank 1";
+        if (compact && playerAbbrev != null)
+            playerSlot = string.Equals(playerAbbrev, tank1Abbrev, StringComparison.OrdinalIgnoreCase)
+                         ? "Tank 1" : "Tank 2";
+
+        string col1Label = showBothCols ? (tank1Abbrev ?? "Tank 1") : (playerAbbrev ?? "Tank 1");
+        string col2Label = tank2Abbrev ?? "Tank 2";
+
+        if (showBothCols)
         {
-            // Determine which column the player is in (Tank 1 or Tank 2 per prio)
-            playerAbbrev = JobIdToAbbrev(playerJobId);
-            col1Label = playerAbbrev;
-            col2Label = ""; // unused
-            showBothCols = false;
-        }
-        else
-        {
-            col1Label = tank1Abbrev ?? "Tank 1";
-            col2Label = tank2Abbrev ?? "Tank 2";
-            showBothCols = true;
             ImGui.Text($"{col1Label}/{col2Label}");
             ImGui.Separator();
         }
 
-        // Build notes glossary for tank rows — always use "Tank 1"/"Tank 2" as slot keys
         var noteSlots = showBothCols
             ? new List<string> { "Tank 1", "Tank 2" }
-            : new List<string> { compact && playerAbbrev == (tank1Abbrev ?? "Tank 1") ? "Tank 1" : "Tank 2" };
+            : new List<string> { playerSlot };
         var (noteGlossary, rowNoteMap) = BuildNotes(tbRows, noteSlots, tank1Abbrev, tank2Abbrev);
 
-        int colCount = showBothCols ? 4 : 3; // Time | Mech | T1 [| T2]
-        if (config.CompactMode) colCount--; // no Time col in compact
+        // Column count is computed from the same flags used by TableSetupColumn — can never diverge
+        int colCount = (showTime ? 1 : 0) + 1 + (showBothCols ? 2 : 1);
 
         var tableFlags = ImGuiTableFlags.Borders | ImGuiTableFlags.RowBg | ImGuiTableFlags.SizingFixedFit;
         if (!ImGui.BeginTable("TankMitTable", colCount, tableFlags)) return;
 
-        ImGui.TableSetupScrollFreeze(compact ? 1 : 2, 1);
-        if (!compact) ImGui.TableSetupColumn("Time", ImGuiTableColumnFlags.WidthFixed, 50);
+        ImGui.TableSetupScrollFreeze(showTime ? 2 : 1, 1);
+        if (showTime) ImGui.TableSetupColumn("Time", ImGuiTableColumnFlags.WidthFixed, 50);
         ImGui.TableSetupColumn("Mech", ImGuiTableColumnFlags.WidthFixed, 140);
         ImGui.TableSetupColumn(col1Label, ImGuiTableColumnFlags.WidthStretch, 1f);
         if (showBothCols)
@@ -113,25 +109,24 @@ public class TankMitWindow : Window, IDisposable
             ImGui.TableNextRow();
             int col = 0;
 
-            if (!compact)
+            if (showTime)
             {
                 ImGui.TableSetColumnIndex(col++);
                 CenterText(row.Timestamp, tbColor);
             }
 
             ImGui.TableSetColumnIndex(col++);
-            var displayName = compact && row.Nickname != null ? row.Nickname : row.Name;
+            // Show nickname when available, whether compact or not
+            var displayName = row.Nickname ?? row.Name;
             CenterText(displayName, tbColor);
 
             if (showBothCols)
             {
-                // Tank 1 column
                 ImGui.TableSetColumnIndex(col++);
                 rowNoteMap.TryGetValue((rowIdx, "Tank 1"), out var note1);
                 var (t1Text, t1Aid) = GetTankCellTiming(row, "Tank 1", tank1Abbrev, tank2Abbrev);
                 DrawTankCell(row, "Tank 1", tank1Abbrev, tank2Abbrev, config, note1, t1Text, t1Aid, compact);
 
-                // Tank 2 column
                 ImGui.TableSetColumnIndex(col++);
                 rowNoteMap.TryGetValue((rowIdx, "Tank 2"), out var note2);
                 var (t2Text, t2Aid) = GetTankCellTiming(row, "Tank 2", tank1Abbrev, tank2Abbrev);
@@ -139,32 +134,26 @@ public class TankMitWindow : Window, IDisposable
             }
             else
             {
-                string playerCol = (tank1Abbrev != null &&
-                    JobNameToAbbrev_FromAbbrev(tank1Abbrev) == playerAbbrev)
-                    ? "Tank 1" : "Tank 2";
-
                 ImGui.TableSetColumnIndex(col++);
-                rowNoteMap.TryGetValue((rowIdx, playerCol), out var noteP);
-                var (tPText, tPAid) = GetTankCellTiming(row, playerCol, tank1Abbrev, tank2Abbrev);
-                DrawTankCell(row, playerCol, tank1Abbrev, tank2Abbrev, config, noteP, tPText, tPAid, compact);
+                rowNoteMap.TryGetValue((rowIdx, playerSlot), out var noteP);
+                var (tPText, tPAid) = GetTankCellTiming(row, playerSlot, tank1Abbrev, tank2Abbrev);
+                DrawTankCell(row, playerSlot, tank1Abbrev, tank2Abbrev, config, noteP, tPText, tPAid, compact);
             }
         }
 
-        // Notes glossary footer
+        // Notes footer
         if (noteGlossary.Count > 0)
         {
             ImGui.TableNextRow();
             int col = 0;
-            if (!compact) { ImGui.TableSetColumnIndex(col++); ImGui.Text(""); }
+            if (showTime) { ImGui.TableSetColumnIndex(col++); ImGui.Text(""); }
             ImGui.TableSetColumnIndex(col++);
             ImGui.TextColored(new Vector4(0.9f, 0.9f, 0.5f, 1f), "Notes");
-
             for (int ci = 0; ci < noteSlots.Count; ci++)
             {
                 ImGui.TableSetColumnIndex(col + ci);
-                var slot = noteSlots[ci];
                 var entries = noteGlossary
-                    .Where(kv => kv.Key.ColName == slot)
+                    .Where(kv => kv.Key.ColName == noteSlots[ci])
                     .OrderBy(kv => kv.Value.StarCount)
                     .Select(kv => $"{kv.Value.Stars} {kv.Value.NoteText}")
                     .ToList();

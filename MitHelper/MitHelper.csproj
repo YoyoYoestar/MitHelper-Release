@@ -4,6 +4,7 @@
         <AssemblyName>MitHelper</AssemblyName>
         <RootNamespace>MitHelper</RootNamespace>
         <Nullable>enable</Nullable>
+        <Version>1.0.0.0</Version>
         <LangVersion>latest</LangVersion>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <Optimize>true</Optimize>
@@ -15,6 +16,9 @@
 
     <ItemGroup>
         <None Include="Data\**\*">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="MitHelper.json">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
     </ItemGroup>
